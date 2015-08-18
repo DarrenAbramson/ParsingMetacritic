@@ -8,7 +8,6 @@ class Movie():
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
         self.metascore = getmetascore.getscore(movie_title)
-        print(self.metascore)
 
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)

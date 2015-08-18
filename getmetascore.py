@@ -24,5 +24,5 @@ def getscore(title):
 
     # This code assumes 2 digit ratings.
     ratingString = output[ratingIndex : ratingIndex + 2] 
-    print(title + ": ")
+    print(title + ": " + ratingString)
     return int(ratingString)
