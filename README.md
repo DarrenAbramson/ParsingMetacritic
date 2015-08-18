@@ -1,12 +1,7 @@
 # Parsing Metacritic
 
-This directory contains 4 files. The only new file is 
-
-``python
-getmetascore.py
-``
-
-although all of the others have been changed. Here are the most significant changes.
+This directory contains 4 files. The only new file is ``python
+getmetascore.py``, although all of the others have been changed. Here are the most significant changes.
 
 ##``fresh_tomatoes.py``
 
