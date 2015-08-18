@@ -25,9 +25,9 @@ The class initializer now calls ``getmetascore.getscore`` and intializes the fie
 
 There is no publicly available API for retrieving metascores for movies from [Metacritic](http://www.metacritic.com). 
 
-A shameful company is offering unofficial APIs but requires a credit card for even low volume, noncommercial use. So I rolled my own. It looks for the ``ratingValue`` tag in the html of the appropriately formatted URL, and extracts the score as a tag.
+A shameful company is offering unofficial APIs but requires a credit card for even low volume, noncommercial use. So I rolled my own. It looks for the ``ratingValue`` tag in the html of the appropriately formatted URL, and extracts the score as a string.
 
-Movies without metascores, such as the excellent [Krush Groove](https://www.youtube.com/watch?v=uhx60w2_51Y), had to be omitted.
+Movies without metascores, such as the excellent [Krush Groove](https://www.youtube.com/watch?v=uhx60w2_51Y), [had to be omitted](http://www.metacritic.com/search/all/krush%20groove/results).
 
 While processing, the metascore and title is printed to the terminal to show successful parsing for each movie. 
 
