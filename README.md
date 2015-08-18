@@ -1,5 +1,7 @@
 # Parsing Metacritic
 
+To use these files, simply run ``entertainment_center.py``. You will see new functionality at the command line, and in the resulting html page. While processing, the metascore and title of each movie is printed to the terminal to show successful parsing for each movie. 
+
 This directory contains 4 files. The only new file is ``python
 getmetascore.py``, although all of the others have been changed. Here are the most significant changes.
 
@@ -24,6 +26,6 @@ A shameful company is offering unofficial APIs but requires a credit card for ev
 
 Movies without metascores, such as the excellent [Krush Groove](https://www.youtube.com/watch?v=uhx60w2_51Y), [had to be omitted](http://www.metacritic.com/search/all/krush%20groove/results).
 
-While processing, the metascore and title is printed to the terminal to show successful parsing for each movie. 
+
 
 
