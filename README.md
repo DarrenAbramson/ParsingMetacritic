@@ -1,5 +1,7 @@
 # Parsing Metacritic
 
+The result of using these files to generate html can be found at [darrenabramson.github.io/ParsingMetacritic/fresh_tomatoes.html](http://darrenabramson.github.io/ParsingMetacritic/fresh_tomatoes.html)
+
 To use these files, simply run ``entertainment_center.py``. You will see new functionality at the command line, and in the resulting html page. While processing, the metascore and title of each movie is printed to the terminal to show successful parsing for each movie. 
 
 This directory contains 4 files. The only new file is ``python
