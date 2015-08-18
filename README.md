@@ -24,7 +24,9 @@ The class initializer now calls ``getmetascore.getscore`` and intializes the fie
 
 There is no publicly available API for retrieving metascores for movies from [Metacritic](http://www.metacritic.com). 
 
-A shameful company is offering unofficial APIs but requires a credit card for even low volume, noncommercial use. So I rolled my own. It looks for the ``ratingValue`` tag in the html of the appropriately formatted URL, and extracts the score as a string.
+A shameful company is offering unofficial APIs but requires a credit card for even low volume, noncommercial use. So I rolled my own. 
+
+It looks for the ``ratingValue`` tag in the html of the appropriately formatted URL, and extracts the score as a string. Metacritic is annoying, too -- it returns a 403 forbidden if it sees the user agent of the request is python. It's for that reason I used ``urllib2``.
 
 Movies without metascores, such as the excellent [Krush Groove](https://www.youtube.com/watch?v=uhx60w2_51Y), [had to be omitted](http://www.metacritic.com/search/all/krush%20groove/results).
 
